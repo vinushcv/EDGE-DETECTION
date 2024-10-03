@@ -67,17 +67,17 @@ sobel_combined = cv2.magnitude(sobel_x, sobel_y)  # Combine both directions
 # Apply Laplacian edge detector
 laplacian = cv2.Laplacian(gray_image, cv2.CV_64F)
 ```
-![image](https://github.com/user-attachments/assets/2d5bba6f-fa9a-4fb2-b782-19595fdf457d)
 
+![image](https://github.com/user-attachments/assets/b6ecbf92-fe51-457f-b02b-2f6a3abe2c6a)
 
 ### CANNY EDGE DETECTOR
 ```python
 # Apply Canny edge detector
 canny_edges = cv2.Canny(gray_image, 50, 150)
 ```
-![image](https://github.com/user-attachments/assets/b6ecbf92-fe51-457f-b02b-2f6a3abe2c6a)
 
 
+![image](https://github.com/user-attachments/assets/2d5bba6f-fa9a-4fb2-b782-19595fdf457d)
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
